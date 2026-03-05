@@ -1,2 +1,96 @@
 # Krishna-Consciousness-
 Krishna 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>শ্রীকৃষ্ণ ভাবনামৃত</title>
+
+<style>
+
+body{
+margin:0;
+padding:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+font-family:sans-serif;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+overflow:hidden;
+}
+
+h1{
+font-size:45px;
+margin-bottom:10px;
+animation:glow 3s infinite alternate;
+}
+
+@keyframes glow{
+from{ text-shadow:0 0 10px #fff;}
+to{ text-shadow:0 0 25px #00eaff;}
+}
+
+.krishna{
+width:280px;
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0px)}
+50%{transform:translateY(-25px)}
+100%{transform:translateY(0px)}
+}
+
+.quote{
+margin-top:20px;
+font-size:20px;
+opacity:0.9;
+}
+
+button{
+margin-top:25px;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:#00eaff;
+color:black;
+font-size:18px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+background:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🌸 জয় শ্রীকৃষ্ণ 🌸</h1>
+
+<img class="krishna" src="https://i.imgur.com/4AiXzf8.png">
+
+<div class="quote">
+"যখন ধর্মের অবনতি হয়, তখন আমি অবতীর্ণ হই"  
+<br> — শ্রীমদ্ভগবদ্গীতা
+</div>
+
+<button onclick="bhakti()">হরে কৃষ্ণ</button>
+
+<script>
+
+function bhakti(){
+alert("হরে কৃষ্ণ হরে কৃষ্ণ কৃষ্ণ কৃষ্ণ হরে হরে\nহরে রাম হরে রাম রাম রাম হরে হরে");
+}
+
+</script>
+
+</body>
+</html>
